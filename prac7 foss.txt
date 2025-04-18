@@ -1,0 +1,32 @@
+Practical 7
+Implement FOSS-Cloud Functionality VSI (Virtual Server Infrastructure)Infrastructure as a Service (IaaS), Creating Virtual Machine or Storage.
+
+Step 1-
+Open terminal ubuntu and enter the following cmd "sudo apt upgrade" and "sudo apt update"
+
+step 2-
+enter the following cmd to install virt manager
+Launch virt manager using
+$sudo virt -manager
+
+step 3-
+once the virt manager is launched click on file =new virtual machine
+
+step 4-
+select local install media(ISO image or CDROM) and click forword
+click on browser-> browser local -> select downloaded iso file -> open
+
+step 5-
+Uncheck The checkbox and Choose the OS you are installing as “Generic default” and click “Forward"
+
+Provide the Memory, CPU,Storage,Name For Virtual Machine and click “Forward
+
+step 6-
+Once the foss Cloud is launched select “Foss-Cloud installer :default boot options” and press Enter
+
+types yes to start the installation
+
+Select “Demo System” and press Enter
+
+Enter the Device name as “sda” and press enter
+

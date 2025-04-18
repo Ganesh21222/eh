@@ -1,0 +1,35 @@
+Practical 5
+Installation and Configuration of virtualization using KVM
+
+Step 1-
+First we need to open VMware WorkStation
+on ubuntu
+#sudo grep -c "svm\|vmx" /proc/cpuinfo
+
+Step 2- 
+#sudo apt-get install qemu-kvm libvirt-bin bridge-utils virt-manager
+
+Step 3-
+#sudo adduser rait
+
+Step 4- 
+#sudo adduser rait libvirt
+After running this command, log out and log back in as rait
+
+Step 5-
+Open Virtual Machine Manager application and Create Virtual Machine
+#virt-manager as shown below
+
+Step 6-
+Create a new virtual machine as shown below
+
+Step 7-
+Install windows operating system on virtual machine
+
+
+Step 8-
+Installation of windows on virtual machine
+
+Step 9-
+Installation of windows 7 on virtual machine
+
